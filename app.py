@@ -48,7 +48,7 @@ def transform_text(text: str) -> str:
     return " ".join(words)
 
 
-st.title("Email/SMS Spam Detector")
+st.title("Email Spam Detector")
 
 message = st.text_area("Enter your message")
 
